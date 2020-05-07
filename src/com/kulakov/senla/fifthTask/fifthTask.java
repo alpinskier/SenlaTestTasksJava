@@ -1,5 +1,4 @@
 package com.kulakov.senla.fifthTask;
-
 import java.util.Scanner;
 
 public class fifthTask {

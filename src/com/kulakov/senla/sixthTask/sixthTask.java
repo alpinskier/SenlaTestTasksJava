@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class sixthTask {
 
     public static class Item {
-        private double cost, weight;
+        double cost, weight;
         public Item(double cost, double weight) {
             this.cost = cost;
             this.weight = weight;

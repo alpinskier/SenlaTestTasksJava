@@ -5,6 +5,7 @@ public class secondTask {
     public static int nok(int a, int b){
         int i;
         int x = (a > b) ? a : b;
+        // делаем цикл от большего из чисел до их произведения, так как в крайнем случае НОК будет как раз a*b
         for (i=x; i<=a*b; i++) {
             if ((i % a == 0) && (i % b == 0) && (i != 0)) return i;
         }
